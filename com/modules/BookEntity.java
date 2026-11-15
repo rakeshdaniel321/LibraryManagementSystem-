@@ -26,4 +26,9 @@ this.availability=availability;
     public void setCategory(String category)   { this.category = category; }
  public void setAvailability(int availability) {this.availability=availability;} 
 
+ @Override
+    public String toString() {
+        return "{" + bookId + " - " + bookName + " - " + authorName + " - " + category + "-"+availability+"}";
+    }
+
 }
