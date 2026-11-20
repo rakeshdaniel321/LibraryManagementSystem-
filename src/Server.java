@@ -1,4 +1,5 @@
-import controllers.BookController;
+import com.rakesh.lms.controllers.BookController;
+
 public class Server {
     public static void main(String[] args) {
         System.out.println("Server Start");
