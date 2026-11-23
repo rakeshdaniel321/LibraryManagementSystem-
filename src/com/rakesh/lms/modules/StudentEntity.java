@@ -12,6 +12,12 @@ public StudentEntity(int studentId,String studentName,String mobileNumber)
   this.mobileNumber=mobileNumber;
 }
 
+public StudentEntity(String studentName,String mobileNumber)
+{
+  this.studentName=studentName;
+  this.mobileNumber=mobileNumber;
+}
+
 public int getStudentId()     {return studentId;}
 public String getStudentName(){return studentName;}
 public String getMobileNumber(){return mobileNumber;}

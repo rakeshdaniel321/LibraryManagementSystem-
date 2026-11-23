@@ -15,6 +15,14 @@ public BookEntity(int bookId,String bookName,String authorName, String category,
   this.category=category;
   this.availability=availability;
 }
+
+public BookEntity(String bookName, String authorName, String category, int availability){
+    this.bookName = bookName;
+    this.authorName = authorName;
+    this.category = category;
+    this.availability = availability;
+}
+
 public int getBookId()         {return bookId; }
 public String getBookName()    {return bookName; }
 public String getAuthorName()  {return authorName; }
